@@ -12,10 +12,8 @@ namespace AplicacionOASIS_LTF
         public double PrecioProducto { get; set; }
         public int CantidadProductocliente { get; set; }
         public int IDProducto { get; set; }
-        
+
     }
 
-    public void Productos() { 
-    
-    }
+   
 }

@@ -12,6 +12,7 @@ namespace AplicacionOASIS_LTF
         public string  Direccion { get; set; }
         public int Telefono  { get; set; }
         public int IDCedula  { get; set; }
+        public list<Productos>  listaProductos = new list<Productos>();
 
     }
 }
