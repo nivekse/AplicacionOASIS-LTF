@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace AplicacionOASIS_LTF
 {
-    internal class Clientes
+    internal class Cliente
     {
         public string  Nombre { get; set; }
         public string  Direccion { get; set; }
         public int Telefono  { get; set; }
         public int IDCedula  { get; set; }
-        public list<Productos>  listaProductos = new list<Productos>();
+        public List<Producto> listaProductos = new List<Producto>();
 
     }
 }

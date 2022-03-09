@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AplicacionOASIS_LTF
 {
-    internal class Productos
+    internal class Producto 
     {
         public string NombreProducto { get; set; }
         public double PrecioProducto { get; set; }
